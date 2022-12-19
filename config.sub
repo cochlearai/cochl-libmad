@@ -297,6 +297,7 @@ case $basic_machine in
 	| alpha64-* | alpha64ev[4-8]-* | alpha64ev56-* | alpha64ev6[78]-* \
 	| alphapca5[67]-* | alpha64pca5[67]-* | arc-* \
 	| arm-*  | armbe-* | armle-* | armeb-* | armv*-* \
+  | aarch64 \
 	| avr-* \
 	| bs2000-* \
 	| c[123]* | c30-* | [cjt]90-* | c4x-* | c54x-* | c55x-* | c6x-* \
@@ -315,8 +316,8 @@ case $basic_machine in
 	| mips16-* \
 	| mips64-* | mips64el-* \
 	| mips64vr-* | mips64vrel-* \
-	| mips64orion-* | mips64orionel-* \
 	| mips64vr4100-* | mips64vr4100el-* \
+	| mips64orion-* | mips64orionel-* \
 	| mips64vr4300-* | mips64vr4300el-* \
 	| mips64vr5000-* | mips64vr5000el-* \
 	| mipsisa32-* | mipsisa32el-* \
