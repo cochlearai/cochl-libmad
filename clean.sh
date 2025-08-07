@@ -1,6 +1,8 @@
 #!/bin/bash
 
-make clean
+if [ -f Makefile ]; then
+    make clean
+fi
 
 git checkout .
 
